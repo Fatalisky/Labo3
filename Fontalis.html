@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fontalis</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+	<header>
+		
+		<div class="container">
+			<!-- Logo + Menu -->
+			<div class="nav row rounded-top align-items-strech justify-content-between">
+				<!-- Logotipo -->
+				<div class="col-md-12 col-lg logo d-flex align-items-center justify-content-center justify-content-lg-start">
+					<img class="img-fluid float-left img-thumbnail" src="http://lorempixel.com/500/500/" alt="">
+	<h2>Fontalis Mackenson</h2>
+					<span class="icono icon-dot"></span>
+					<p>Laboratorio 3</p>
+				</div>
+
+				<!-- Menu -->
+				<nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+					<a href="#" class="c-1 d-flex align-items-center" id="kestion">
+						<div class="d-flex flex-column text-center">
+							<span>Quiz</span>
+							<i class="icono icon-briefcase"></i>
+						</div>
+					</a>
+					<a href="#" class="c-2 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Acerca de</span>
+							<i class="icono icon-user"></i>
+						</div>
+					</a>
+					<a href="#" class="c-3 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Contacto</span>
+							<i class="icono icon-mail"></i>
+						</div>
+					</a>
+				</nav>
+			</div>
+		</div>
+	</header>	
+		
+<hr>
+
+	 <div class="container" >
+		<div class="row">
+		<div class="view col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+			<div class="col offset-1" id="prueba">				
+				<!-- <h1>Quiza</h1> -->
+				<hr>
+				<h2 id="preg"></h2>
+				<input type="text" id="dato">
+				<button id="boton">Siguiente Pregunta</button>
+		</div>
+			</div>		
+	</div>
+	<div class="container" id="result">
+		<div class="row">
+		<div class="view col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+			<div class="col offset-1">
+	<div>
+		<p id="resolucion"></p>
+		<div id="resu"></div>
+</div>
+		</div>
+			</div>		
+	</div>
+</div>
+
+<div class="row">
+	<div class="view col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+		<div class="col offset-1 final" id="final">				
+			<!-- <h1>Quiza</h1> -->
+			<hr>
+			<h3> Preguntas y sus respuestas correctas</h3>
+			<hr>
+			<p>1.- ¿Cual es el nombre del director de la TUP?</p>
+			<div>Jorge</div>
+
+			<p>2.- ¿Cuánto es ln(e)?</p>
+				<div>1</div>
+			
+			<p>3.- ¿Cuánto es 10^0?</p>
+				<div>1</div>
+			
+			<p>4.- ¿En qué deporte jugó Michael Jordan?</p>
+				<div>Basket</div>
+			
+			<p>5.- ¿Cuántos jugadores participan en un partido de Basket?</p>
+				<div>10</div>
+			
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<script src="quiz.js"> </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
